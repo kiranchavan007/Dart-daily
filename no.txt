@@ -1,0 +1,113 @@
+//folder structure 
+1.idea
+
+* The .idea folder contains your code editor's project related settings
+specific files.
+* No need to make any manual changes here.
+
+2.android
+The android folder inside the Flutter project contains the Android
+platform specific settings, resources and code.
+*If you need to write any platform specific CO
+rill be making
+changes in here.
+
+
+3.build
+
+* The build folder contains the output generated when you build or
+run the flutter project.
+* You will find all the the release related files/folders like apks and
+app bundles in  here.
+* orange colour folder means run time genrated folder
+* creats exe file
+
+4.ios
+* Similar to android folder, the ios folder contains iOs specific
+settings, resources and code.
+* You will make the platform specific code or changes in here.
+
+5.lib(library folder)**imp***************************************************
+* The lib folder is main folder where you will write all the Flutter app
+related codes.
+* Initially it will contain just one single file main.dart which has the
+entry point for a Flutter app.
+
+
+6.test
+* The test folder is set to contain any testing related codes that you
+write.
+* If you decide to write tests/test cases, you will be adding code in
+here.
+
+7- .gitignore
+
+§ This is a git specific file.
+* You can adjust the gitignore file to include/exclude any files/
+folders as your need.
+
+8- .metadata
+* As name suggests,
+the .metadata file contains Flutter project
+related metadata that Flutter tool uses.
+* You should not make any manual changes to this file.
+
+9- .packages
+* A Flutter prcject code is composed of numerous libraries and
+packages.
+* Some packages are pre-installed with Flutter while others are
+downloaded during development.
+* The packages holds the paths to each of the
+libraries/packages in your local computer
+hputer.
+* You do not need to make any manual changes to this file.
+
+10. pubspec.yaml  **imp*************************************************
+
+* The pubspec.yaml contains Flutter app specific metadata and
+configurations.
+* You can configure dependencies such as external packages, image
+assets, font files, app versions etc. with the help of this file.
+* You will often make changes to
+external dependencies.
+subspec.yaml file to add
+
+11.pubspec.lock
+
+* The pubspec.lock file is a helper file created next to puspecyaml
+file.
+* It lists the specific versions of each dependency that packages use
+in your app and ensures the version stays consistent across
+different developers machine.
+* No need to make any changes he
+pubspec.lock
+
+12.readme.md
+
+* The readmemd is a markdown format file which is primarily used
+to describe your project in git repo.
+* You can write project specific things like what your project does or
+how to use certain libraries in the README.md file.
+
+
+
+
+                        -++++dart++++----------------------------------------------------
+
+for input syntax
+var name = std.inreadLineSync();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
