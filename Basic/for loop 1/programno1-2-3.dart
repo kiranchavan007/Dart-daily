@@ -1,11 +1,7 @@
 void main(){
-  for(int i=1;i<=10;i++){
-    print(i);
-  }
-   for(int i=1; i<=100;i++){
-    print(i);
-  }
-   for(int i=100; i<=110;i++){
+
+   for(int i=0; i<=10;i++){
+    i+3;
     print(i);
   }
 
